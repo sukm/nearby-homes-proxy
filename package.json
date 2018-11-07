@@ -1,17 +1,19 @@
 {
-  "name": "",
-  "version": "",
+  "name": "FECdemo",
+  "version": "1.0.0",
   "description": "",
-  "author": "",
-  "license": "",
-  "engines": {
-    "node": ">=6.13.0"
-  },
+  "main": "index.js",
   "scripts": {
+    "start": "nodemon ./server.js"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-  },
-  "devDependencies": {
-    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor"
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-http-proxy": "^1.4.0",
+    "http-proxy": "^1.17.0",
+    "morgan": "^1.9.0"
   }
 }
